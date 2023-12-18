@@ -27,8 +27,8 @@ const color = prompt('Qual è il tuo colore preferito?', 'Blu');
 console.log('Il tuo colore preferito é', color);
 
 // 5
-const password = firstName + lastName + color + 23;
+const password = firstName + lastName + color + '23';
 console.log('La tua password é', password);
 
 // 6
-paragraph.innerHTML = `La tua password è:  ${password}`;
+paragraph.innerHTML = `La tua password è:  <strong>${password}</strong>`;
